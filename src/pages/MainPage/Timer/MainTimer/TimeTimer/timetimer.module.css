@@ -1,0 +1,22 @@
+.timeTimer {
+  position: relative;
+  font-weight: 300;
+  font-size: 120px;
+}
+.textGradient {
+  color: #e23a3a;
+}
+.setting {
+  position: absolute;
+  cursor: pointer;
+  right: -75px;
+  top: 75px;
+  border: 0;
+}
+
+.btn path {
+transition: fill .2s linear;
+}
+.btn:hover path{
+  fill: #51a464
+}

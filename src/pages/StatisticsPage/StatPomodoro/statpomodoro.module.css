@@ -1,0 +1,41 @@
+
+.pomodoro {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	grid-column: 1 / 4;
+	grid-row: 2 / 3;
+	width: 100%;
+	/* height: 179px; */
+	background: #F4F4F4;
+	padding-top: 33px;
+
+	.img {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+    color: #999999;
+		font-weight: 700;
+		font-size: 1.3rem;
+    line-height: 2.0625rem;
+	}
+
+	.img svg {
+		margin-right: 15px;
+		margin-bottom: 10px;
+	}
+
+	.count {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 51px;
+		color: #fff;
+		background-color: #d6536d;
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 2.0625rem;
+	}
+}

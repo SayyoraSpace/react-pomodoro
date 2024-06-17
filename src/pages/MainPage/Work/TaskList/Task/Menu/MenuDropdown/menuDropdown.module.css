@@ -1,0 +1,79 @@
+.dropdown {
+  position: absolute;
+  top: 45px;
+	right: -61.5px;
+	z-index: 10;
+}
+.dropdownList {
+  list-style: none;
+  position: relative;
+  padding: 0;
+  border: 1px solid #C4C4C4;
+}
+	.dropdownList:after {
+		content: "";
+		width: 9px;
+		height: 9px;
+		display: block;
+		position: absolute;
+		top: -5px;
+		right: 50%;
+		/* left: 50%; */
+		border-bottom: 1px solid rgb(185, 182, 182);
+		border-left: 1px solid rgb(185, 182, 182);
+		/* -webkit-transform: rotate(135deg); */
+		transform: rotate(135deg);
+		background: linear-gradient(45deg, white 0%, #efefef);
+}
+.dropdownItem {
+  min-width: 65px;
+  height: 36px;
+  transition: background-color 0.2s linear;
+}
+
+.btn {
+  display: flex;
+	align-items: center;
+  cursor: pointer;
+	width: 100%;
+	height: 100%;
+	padding: 0 15px;
+	font-weight: 300;
+	color: grey;
+  border: 0;
+}
+
+.btn:disabled {
+cursor: default;
+}
+
+.btn:disabled svg path {
+fill: grey;
+}
+.btn svg {
+  margin-right: 5px;
+}
+.btn:hover {
+ background-color: #efefef;
+}
+.btnDelete {
+	cursor: pointer;
+	width: 162px;
+	height: 55px;
+	font-size: 14px;
+	background-color: #ef3e3e;
+	margin-bottom: 15px;
+	font-weight: 500;
+	color: #FFFFFF;
+	border: none;
+}
+.btnDelete:hover {
+	background: #d13d3d;
+	}
+
+	.btnCancel {
+		padding: 5px;
+		cursor: pointer;
+		border: none;
+		background: #cfcccc;
+	}

@@ -1,0 +1,26 @@
+.headerTimer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between ;
+  background-color: #cfcccc;
+  color: #fff;
+  height: 50px;
+  padding: 0 40px;
+  border-radius: 4px 4px 0 0;
+}
+.title {
+  font-weight: 600;
+}
+.number {
+  font-weight: 500;
+  color: #fff;
+  font-size: 20px;
+  /* border: 2px solid #fff;
+  border-radius: 50%; */
+}
+.headerGreen {
+  background-color: #51a464;
+}
+.headerRed {
+  background-color: #d6536d;
+}

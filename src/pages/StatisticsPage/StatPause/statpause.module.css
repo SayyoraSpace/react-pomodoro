@@ -1,0 +1,43 @@
+.pause {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	grid-column: 5 / 9;
+	grid-row: 3 / 4;
+	height: 179px;
+	padding: 25px;
+	background-color: #F4F4F4;
+}
+
+	.descr {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	justify-content: space-between;
+  }
+
+	.title {
+		font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.0625rem;
+		}
+
+.time {
+	position: absolute;
+	left: 25px;
+	right: 25px;
+	bottom: 25px;
+	font-weight: 400;
+	font-size: 58px;
+	line-height: 76px;
+	color: #333333;
+}
+
+.purple {
+	background-color: #DFDCFE;
+}
+
+.svg path {
+	stroke: #9C97D7;
+}

@@ -1,0 +1,33 @@
+.focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  grid-column: 1/5;
+  grid-row: 3/4;
+  padding: 25px;
+  background: #f4f4f4;
+}
+
+.descr {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	justify-content: space-between;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.0625rem;
+}
+.percent {
+	font-weight: 400;
+	font-size: 58px;
+	line-height: 76px;
+	color: #333333;
+}
+
+.orange {
+	background-color: #FFDDA9;
+}
+
+.svg path {
+	stroke: #FFAE35
+}
